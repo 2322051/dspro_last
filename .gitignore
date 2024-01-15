@@ -3,4 +3,4 @@
 /log
 *.xlsx
 *.csv
-tenki.sqlite
+*.tenki.sqlite

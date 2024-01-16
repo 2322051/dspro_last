@@ -17,11 +17,6 @@ cursor.execute('''
 ''')
 
 
-
-# SQLiteデータベースに接続
-conn = sqlite3.connect('tenki.sqlite')
-cursor = conn.cursor()
-
 # CSVファイルの読み込みとデータベースへの挿入
 with open('/Users/takuto/dspro_last/ds_tenki/dspro_ローカルデータ.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
